@@ -9,34 +9,46 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start_1.mp3", "label": "Greeting 1" },
-        { "file": "sounds/start_2.mp3", "label": "Greeting 2" }
+        { "file": "sounds/pg_add_player.wav", "label": "Maniacal laughing" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/pg_taunt_04.wav", "label": "Pig is coming to town" },
+        { "file": "sounds/pg_taunt_08.wav", "label": "Pig's men are almost here" }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete_1.mp3", "label": "Done 1" },
-        { "file": "sounds/complete_2.mp3", "label": "Done 2" }
-      ]
-    },
-    "input.required": {
-      "sounds": [
-        { "file": "sounds/permission_1.mp3", "label": "Needs attention" }
+        { "file": "sounds/pg_vict_01.wav", "label": "No one beats the pig" },
+        { "file": "sounds/pg_vict_03.wav", "label": "Pink wins again" },
+        { "file": "sounds/pg_vict_04.wav", "label": "Skewer you alive" }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error_1.mp3", "label": "Error" }
+        { "file": "sounds/pg_anger_01.wav", "label": "You'll pay" },
+        { "file": "sounds/pg_anger_02.wav", "label": "I WILL KILL YOU" },
+        { "file": "sounds/pg_anger_03.wav", "label": "This doesn't happen to the Pig" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/pg_plead_02.wav", "label": "I want to live" },
+        { "file": "sounds/pg_plead_03.wav", "label": "Pig in trouble" },
+        { "file": "sounds/pg_plead_04.wav", "label": "What's happening to me" }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit_1.mp3", "label": "Limit hit" }
+        { "file": "sounds/pg_anger_04.wav", "label": "Smash you to pieces" }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam_1.mp3", "label": "Too many prompts" }
+        { "file": "sounds/pg_taunt_06.wav", "label": "Clip your wings" },
+        { "file": "sounds/pg_taunt_01.wav", "label": "Coming to kill you" },
+        { "file": "sounds/pg_kick_player.wav", "label": "Screaming" }
       ]
     }
   }
